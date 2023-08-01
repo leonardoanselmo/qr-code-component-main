@@ -1,6 +1,8 @@
+/* Layout */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Outfit', sans-serif;
 }
 
@@ -11,6 +13,23 @@
   --dark-blue: hsl(218, 44%, 22%);
 }
 
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  background-color: var(--light-gray);    
+}
+
+img {
+  display: block;
+}
+/* ----------------------- end -------------------- */
+
+/* Colors */
 .color-white {
   color: var(--white);
 }
@@ -26,12 +45,54 @@
 .color-dark-blue {
   color: var(--dark-blue);
 }
+/* ----------------------- end -------------------- */
 
+
+/* Section */
+.qr-code-container {  
+  max-width: 350px;  
+  padding: 15px;
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.1);
+}
+
+.qr-code__img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1.25rem;
+}
+
+.qr-code__title {  
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 1.25rem;
+  max-width: 18ch;    
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.qr-code__paragraph {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;  
+  max-width: 26ch;
+  margin-bottom: 1.5rem;
+  color: var(--grayish-blue);  
+}
+/* ----------------------- end -------------------- */
+
+
+/* Footer */
 .attribution {
   font-size: 11px;
-  text-align: center; 
+  text-align: center;   
+  position: fixed;
+  bottom: 4px;  
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%); 
 }
+
+/* ----------------------- end -------------------- */
