@@ -29,25 +29,6 @@ img {
 }
 /* ----------------------- end -------------------- */
 
-/* Colors */
-.color-white {
-  color: var(--white);
-}
-
-.color-light-gray {
-  color: var(--light-gray);
-}
-
-.color-grayish-blue {
-  color: var(--grayish-blue);
-}
-
-.color-dark-blue {
-  color: var(--dark-blue);
-}
-/* ----------------------- end -------------------- */
-
-
 /* Section */
 .qr-code-container {  
   max-width: 350px;  
