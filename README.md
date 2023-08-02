@@ -23,7 +23,7 @@ Esta é uma solução para o [desafio do componente de código QR no Frontend Me
 ### Links
 
 - [URL da solução no Git](https://github.com/leonardoanselmo/qr-code-component-main)
-- [URL do site](https://qr-code-component-main-ruddy-seven.vercel.app/)
+- [URL do site](https://qr-code-component-main-ruddy-seven.vercel.app/ target="_blank")
 
 ## Meu processo
 
